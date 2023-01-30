@@ -1,5 +1,6 @@
 @import url(../src/components/App/App.css);
 @import url(../src/components/Info/Info.css);
+@import url(../src/components/Gentleman/Gentleman.css);
 
 :root {
   --background-main-color: #c2e7da;
@@ -21,6 +22,10 @@ li {
   margin: 0;
   padding: 0;
   list-style: none;
+}
+h1,
+h2 {
+  margin: 0;
 }
 .controls {
   align-items: center;
