@@ -1,3 +1,4 @@
+import Gentleman from "../Gentleman/Gentleman";
 import Info from "../Info/Info";
 
 const App = (): JSX.Element => {
@@ -9,6 +10,9 @@ const App = (): JSX.Element => {
       <section className="controls">
         <Info />
       </section>
+      <main className="main">
+        <Gentleman />
+      </main>
     </>
   );
 };
